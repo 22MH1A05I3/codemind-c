@@ -3,10 +3,11 @@ int main()
 {
     int n,i=1,res=1;
     scanf("%d",&n);
-    while(i<=n)
+    do
     {
-           res=res*i;
+        res=res*i;
         i++;
     }
-     printf("%d",res);
+    while(i<=n);
+    printf("%d",res);
 }
