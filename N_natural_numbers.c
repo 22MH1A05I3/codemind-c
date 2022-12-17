@@ -3,12 +3,8 @@ int main()
 {
     int n,i;
     scanf("%d",&n);
-    i=1;
-   do
+    for(i=1;i<=n;i++)
     {
-       printf("%d ",i);  
-        i++;
+        printf("%d ",i);
     }
-     while(i<=n);
-
-} 
+}
