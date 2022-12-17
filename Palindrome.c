@@ -6,16 +6,16 @@ int main()
     temp=n;    
     while(n>0)    
     {    
-        r=n%10;    
-        sum=(sum*10)+r;    
-        n=n/10;    
+    r=n%10;    
+    sum=(sum*10)+r;    
+    n=n/10;    
     }    
-    if(temp==sum) 
+    if(temp==sum)
     {
-        printf("Palindrome");
+    printf("True");
     }
-    else    
+    else
     {
-        printf("Not Palindrome"); 
+    printf("False");   
     }
 }
